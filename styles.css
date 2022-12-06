@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  .square {
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 470px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Outfit, sans-serif;
+  }
+
+  .square img {
+    width: 270px;
+    height: 270px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .text {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+  }
+
+  .maintext {
+    font-size: 20px;
+    font-weight: bolder;
+    color: hsl(218, 44%, 22%);
+  }
+
+  .desc {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
